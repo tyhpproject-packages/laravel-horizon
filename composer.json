@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-horizon",
+    "description": "Tyhp type definitions for laravel/horizon 5.49.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.49.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-horizon-impl": "~5.49.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-horizon-impl"
+        }
+    }
+}
